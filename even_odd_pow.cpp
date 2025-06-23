@@ -6,7 +6,7 @@ int pow (int a,int b)
   if ( b==0) return 1;
 
   // Function body
-  int result;
+  int result; // value store in result 
   if (b%2==0){
     // even =b
     int temp = pow (a,b/2);
